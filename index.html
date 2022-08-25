@@ -1,6 +1,954 @@
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://mczhuang.cn/xmlrpc.php">
+	<title>About &#8211; Michael Zhuang&#039;s Log</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Michael Zhuang&#039;s Log &raquo; Feed" href="https://mczhuang.cn/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Michael Zhuang&#039;s Log &raquo; 评论Feed" href="https://mczhuang.cn/?feed=comments-rss2" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mczhuang.cn\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='crayon-css'  href='https://mczhuang.cn/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://mczhuang.cn/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='landing-pagency-style-css'  href='https://mczhuang.cn/wp-content/themes/landing-pagency/style.css?ver=5.9.3' type='text/css' media='all' />
+<style id='landing-pagency-style-inline-css' type='text/css'>
+
+        #site-header { background-image: url('https://mczhuang.cn/wp-content/uploads/2021/07/cropped-Background-scaled-1.jpg'); }
+    .related-posts .related-posts-no-img h5.title.front-view-title, #tabber .inside li .meta b,footer .widget li a:hover,.fn a,.reply a,#tabber .inside li div.info .entry-title a:hover, #navigation ul ul a:hover,.single_post a, a:hover, .sidebar.c-4-12 .textwidget a, #site-footer .textwidget a, #commentform a, #tabber .inside li a, .copyrights a:hover, a, .sidebar.c-4-12 a:hover, .top a:hover, footer .tagcloud a:hover,.sticky-text { color: #1e73be; }
+
+    .total-comments span:after, span.sticky-post, .nav-previous a:hover, .nav-next a:hover, #commentform input#submit, #searchform input[type='submit'], .home_menu_item, .currenttext, .pagination a:hover, .readMore a, .ldgpgy-subscribe input[type='submit'], .pagination .current, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-product-search input[type="submit"], .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, #sidebars h3.widget-title:after, .postauthor h4:after, .related-posts h3:after, .archive .postsby span:after, .comment-respond h4:after, .single_post header:after, #cancel-comment-reply-link, .upper-widgets-grid h3:after  { background-color: #1e73be; }
+
+    .related-posts-no-img, #navigation ul li.current-menu-item a, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus, .pagination .current, .tagcloud a { border-color: #1e73be; }
+    .corner { border-color: transparent transparent #1e73be transparent;}
+
+    
+</style>
+<script type='text/javascript' src='https://mczhuang.cn/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://mczhuang.cn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='crayon_js-js-extra'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/mczhuang.cn\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://mczhuang.cn/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta' id='crayon_js-js'></script>
+<link rel="https://api.w.org/" href="https://mczhuang.cn/index.php?rest_route=/" /><link rel="alternate" type="application/json" href="https://mczhuang.cn/index.php?rest_route=/wp/v2/pages/9" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mczhuang.cn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mczhuang.cn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.9.3" />
+<link rel="canonical" href="https://mczhuang.cn/?page_id=9" />
+<link rel='shortlink' href='https://mczhuang.cn/?p=9' />
+<link rel="alternate" type="application/json+oembed" href="https://mczhuang.cn/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fmczhuang.cn%2F%3Fpage_id%3D9" />
+<link rel="alternate" type="text/xml+oembed" href="https://mczhuang.cn/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fmczhuang.cn%2F%3Fpage_id%3D9&#038;format=xml" />
+<!-- Analytics by WP-Statistics v13.0.4 - https://wp-statistics.com/ -->
+
+    <style type="text/css">
+    #site-header { background-color: #1e73be; }
+    .primary-navigation, .primary-navigation, #navigation ul ul li { background-color: ; }
+    a#pull, #navigation .menu a, #navigation .menu a:hover, #navigation .menu .fa > a, #navigation .menu .fa > a, #navigation .toggle-caret, #navigation span.site-logo a, #navigation.mobile-menu-wrapper .site-logo a, .primary-navigation.header-activated #navigation ul ul li a { color:  }
+    #sidebars .widget h3, #sidebars .widget h3 a, #sidebars h3 { color: ; }
+    #sidebars .widget a, #sidebars a, #sidebars li a { color: ; }
+    #sidebars .widget, #sidebars, #sidebars .widget li { color: ; }
+    .post.excerpt .post-content, .pagination a, .pagination2, .pagination .dots { color: ; }
+    .post.excerpt h2.title a { color: ; }
+    .pagination a, .pagination2, .pagination .dots { border-color: ; }
+    span.entry-meta{ color: ; }
+    .article h1, .article h2, .article h3, .article h4, .article h5, .article h6, .total-comments, .article th{ color: ; }
+    .article, .article p, .related-posts .title, .breadcrumb, .article #commentform textarea  { color: ; }
+    .article a, .breadcrumb a, #commentform a { color: ; }
+    #commentform input#submit, #commentform input#submit:hover{ background: ; }
+    .post-date-landing, .comment time { color: ; }
+    .footer-widgets #searchform input[type='submit'],  .footer-widgets #searchform input[type='submit']:hover{ background: ; }
+    .footer-widgets h3:after{ background: ; }
+    .footer-widgets h3{ color: ; }
+    .footer-widgets .widget li, .footer-widgets .widget, #copyright-note, footer p{ color: ; }
+    footer .widget a, #copyright-note a, #copyright-note a:hover, footer .widget a:hover, footer .widget li a:hover{ color: ; }
+    .top-column-widget a, .top-column-widget a:hover, .top-column-widget a:active, .top-column-widget a:focus { color: ; }
+    .top-column-widget, .upper-widgets-grid { color: ; }
+    .top-column-widget .widget.widget_rss h3 a, .upper-widgets-grid h3, .top-column-widget h3{ color: ; }
+    @media screen and (min-width: 865px) {
+        .primary-navigation.header-activated #navigation a { color: ; }
+    }
+    @media screen and (max-width: 865px) {
+        #navigation.mobile-menu-wrapper{ background-color: ; }
+    }
+    .site-branding { padding-top: px; }
+    .site-branding { padding-bottom: px; }
+    </style>
+    	<style type="text/css">
+		.site-branding .site-title,
+	.site-branding .site-description {
+		color: #ffffff;
+	}
+	.site-branding .site-title:after {
+		background: #ffffff;
+	}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://mczhuang.cn/wp-content/uploads/2018/03/cropped-47F42BB7-FC15-4E66-8FA9-21E9A2FCCF8A-32x32.jpeg" sizes="32x32" />
+<link rel="icon" href="https://mczhuang.cn/wp-content/uploads/2018/03/cropped-47F42BB7-FC15-4E66-8FA9-21E9A2FCCF8A-192x192.jpeg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://mczhuang.cn/wp-content/uploads/2018/03/cropped-47F42BB7-FC15-4E66-8FA9-21E9A2FCCF8A-180x180.jpeg" />
+<meta name="msapplication-TileImage" content="https://mczhuang.cn/wp-content/uploads/2018/03/cropped-47F42BB7-FC15-4E66-8FA9-21E9A2FCCF8A-270x270.jpeg" />
+</head>
+
+<body data-rsssl=1 class="page-template-default page page-id-9 page-child parent-pageid-7 custom-background">
+	 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>	<div class="main-container">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+		<header id="site-header" role="banner">
+							<div class="primary-navigation header-activated">
+										<a href="#" id="pull" class="toggle-mobile-menu">Menu</a>
+						<div class="container clear">
+							<nav id="navigation" class="primary-navigation mobile-menu-wrapper" role="navigation">
+								
+
+																<ul class="menu clearfix">
+										<li class="cat-item cat-item-10"><a href="https://mczhuang.cn/?cat=10">Contests</a>
+<ul class='children'>
+	<li class="cat-item cat-item-69"><a href="https://mczhuang.cn/?cat=69">NOI/APIO/CTSC</a>
+</li>
+	<li class="cat-item cat-item-48"><a href="https://mczhuang.cn/?cat=48">NOIp</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://mczhuang.cn/?cat=14">NOIP模拟赛</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="https://mczhuang.cn/?cat=11">SRM</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="https://mczhuang.cn/?cat=23">USACO</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-59"><a href="https://mczhuang.cn/?cat=59">Models</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="https://mczhuang.cn/?cat=5">OJ</a>
+<ul class='children'>
+	<li class="cat-item cat-item-4"><a href="https://mczhuang.cn/?cat=4">51NOD</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="https://mczhuang.cn/?cat=31">BZOJ</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="https://mczhuang.cn/?cat=30">Code VS</a>
+</li>
+	<li class="cat-item cat-item-109"><a href="https://mczhuang.cn/?cat=109">Codeforces</a>
+</li>
+	<li class="cat-item cat-item-120"><a href="https://mczhuang.cn/?cat=120">HDU</a>
+</li>
+	<li class="cat-item cat-item-140"><a href="https://mczhuang.cn/?cat=140">JZOJ</a>
+</li>
+	<li class="cat-item cat-item-97"><a href="https://mczhuang.cn/?cat=97">LOJ</a>
+</li>
+	<li class="cat-item cat-item-132"><a href="https://mczhuang.cn/?cat=132">noi.ac</a>
+</li>
+	<li class="cat-item cat-item-45"><a href="https://mczhuang.cn/?cat=45">POJ</a>
+</li>
+	<li class="cat-item cat-item-134"><a href="https://mczhuang.cn/?cat=134">SPOJ</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="https://mczhuang.cn/?cat=40">洛谷</a>
+</li>
+	<li class="cat-item cat-item-129"><a href="https://mczhuang.cn/?cat=129">牛客</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://mczhuang.cn/?cat=1">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-133"><a href="https://mczhuang.cn/?cat=133">出题记录</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://mczhuang.cn/?cat=8">数据结构</a>
+<ul class='children'>
+	<li class="cat-item cat-item-121"><a href="https://mczhuang.cn/?cat=121">KD-Tree</a>
+</li>
+	<li class="cat-item cat-item-102"><a href="https://mczhuang.cn/?cat=102">set</a>
+</li>
+	<li class="cat-item cat-item-94"><a href="https://mczhuang.cn/?cat=94">ST表(RMQ)</a>
+</li>
+	<li class="cat-item cat-item-51"><a href="https://mczhuang.cn/?cat=51">Treap</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-91"><a href="https://mczhuang.cn/?cat=91">Splay</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-92"><a href="https://mczhuang.cn/?cat=92">Link Cut Tree</a>
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-52"><a href="https://mczhuang.cn/?cat=52">非旋转Treap</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-68"><a href="https://mczhuang.cn/?cat=68">可持久化Treap</a>
+</li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-99"><a href="https://mczhuang.cn/?cat=99">Trie树</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-125"><a href="https://mczhuang.cn/?cat=125">可持久化Trie</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://mczhuang.cn/?cat=20">分块</a>
+</li>
+	<li class="cat-item cat-item-60"><a href="https://mczhuang.cn/?cat=60">堆</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-61"><a href="https://mczhuang.cn/?cat=61">可并堆</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://mczhuang.cn/?cat=13">并查集</a>
+</li>
+	<li class="cat-item cat-item-65"><a href="https://mczhuang.cn/?cat=65">栈</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-84"><a href="https://mczhuang.cn/?cat=84">单调栈</a>
+</li>
+	<li class="cat-item cat-item-96"><a href="https://mczhuang.cn/?cat=96">手工栈</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-22"><a href="https://mczhuang.cn/?cat=22">树状数组</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-71"><a href="https://mczhuang.cn/?cat=71">权值树状数组</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="https://mczhuang.cn/?cat=46">逆序对</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://mczhuang.cn/?cat=9">线段树</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-75"><a href="https://mczhuang.cn/?cat=75">主席树（权值线段树）</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="https://mczhuang.cn/?cat=21">树链剖分</a>
+</li>
+	<li class="cat-item cat-item-136"><a href="https://mczhuang.cn/?cat=136">线段树合并</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-88"><a href="https://mczhuang.cn/?cat=88">链表</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-89"><a href="https://mczhuang.cn/?cat=89">双向链表</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-29"><a href="https://mczhuang.cn/?cat=29">队列</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-19"><a href="https://mczhuang.cn/?cat=19">优先队列</a>
+</li>
+	<li class="cat-item cat-item-81"><a href="https://mczhuang.cn/?cat=81">单调队列</a>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-50"><a href="https://mczhuang.cn/?cat=50">游记</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="https://mczhuang.cn/?cat=6">算法</a>
+<ul class='children'>
+	<li class="cat-item cat-item-83"><a href="https://mczhuang.cn/?cat=83">几何</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-85"><a href="https://mczhuang.cn/?cat=85">凸包</a>
+</li>
+	<li class="cat-item cat-item-111"><a href="https://mczhuang.cn/?cat=111">最小圆覆盖</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-25"><a href="https://mczhuang.cn/?cat=25">动态规划</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-87"><a href="https://mczhuang.cn/?cat=87">区间DP</a>
+</li>
+	<li class="cat-item cat-item-105"><a href="https://mczhuang.cn/?cat=105">数位DP</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="https://mczhuang.cn/?cat=26">斜率优化DP</a>
+</li>
+	<li class="cat-item cat-item-101"><a href="https://mczhuang.cn/?cat=101">方案DP</a>
+</li>
+	<li class="cat-item cat-item-107"><a href="https://mczhuang.cn/?cat=107">期望DP</a>
+</li>
+	<li class="cat-item cat-item-118"><a href="https://mczhuang.cn/?cat=118">树形DP</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="https://mczhuang.cn/?cat=35">状态压缩DP</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="https://mczhuang.cn/?cat=47">背包型DP</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-76"><a href="https://mczhuang.cn/?cat=76">博弈论</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://mczhuang.cn/?cat=7">图论</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-110"><a href="https://mczhuang.cn/?cat=110">DSU On Tree</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="https://mczhuang.cn/?cat=27">LCA</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-39"><a href="https://mczhuang.cn/?cat=39">Tarjan</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="https://mczhuang.cn/?cat=37">倍增爬树法</a>
+</li>
+	<li class="cat-item cat-item-62"><a href="https://mczhuang.cn/?cat=62">链剖</a>
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-73"><a href="https://mczhuang.cn/?cat=73">强联通Tarjan</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="https://mczhuang.cn/?cat=38">最小生成树</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-24"><a href="https://mczhuang.cn/?cat=24">Kruskal</a>
+</li>
+	<li class="cat-item cat-item-117"><a href="https://mczhuang.cn/?cat=117">Prim</a>
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-33"><a href="https://mczhuang.cn/?cat=33">最短路</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-119"><a href="https://mczhuang.cn/?cat=119">Dijkstra</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="https://mczhuang.cn/?cat=36">Floyd</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="https://mczhuang.cn/?cat=34">SPFA/SPDIJ</a>
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-93"><a href="https://mczhuang.cn/?cat=93">最短路树</a>
+</li>
+	<li class="cat-item cat-item-63"><a href="https://mczhuang.cn/?cat=63">树上最长路</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="https://mczhuang.cn/?cat=67">点分治</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="https://mczhuang.cn/?cat=54">网络流</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-55"><a href="https://mczhuang.cn/?cat=55">二分图匹配</a>
+</li>
+	<li class="cat-item cat-item-127"><a href="https://mczhuang.cn/?cat=127">最小割/最大流</a>
+</li>
+	<li class="cat-item cat-item-128"><a href="https://mczhuang.cn/?cat=128">费用流</a>
+</li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-77"><a href="https://mczhuang.cn/?cat=77">字符串</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-78"><a href="https://mczhuang.cn/?cat=78">AC自动机</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="https://mczhuang.cn/?cat=79">KMP</a>
+</li>
+	<li class="cat-item cat-item-98"><a href="https://mczhuang.cn/?cat=98">后缀自动机</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-135"><a href="https://mczhuang.cn/?cat=135">广义后缀自动机</a>
+</li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-72"><a href="https://mczhuang.cn/?cat=72">思维题</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://mczhuang.cn/?cat=16">技巧</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-44"><a href="https://mczhuang.cn/?cat=44">Hash</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="https://mczhuang.cn/?cat=18">三分</a>
+</li>
+	<li class="cat-item cat-item-42"><a href="https://mczhuang.cn/?cat=42">二分</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="https://mczhuang.cn/?cat=17">二进制压位</a>
+</li>
+	<li class="cat-item cat-item-56"><a href="https://mczhuang.cn/?cat=56">分块打表</a>
+</li>
+	<li class="cat-item cat-item-103"><a href="https://mczhuang.cn/?cat=103">分治</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-115"><a href="https://mczhuang.cn/?cat=115">CDQ分治</a>
+</li>
+	<li class="cat-item cat-item-104"><a href="https://mczhuang.cn/?cat=104">根号分治</a>
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-64"><a href="https://mczhuang.cn/?cat=64">垃圾回收</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="https://mczhuang.cn/?cat=28">差分</a>
+</li>
+	<li class="cat-item cat-item-116"><a href="https://mczhuang.cn/?cat=116">差分约束</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="https://mczhuang.cn/?cat=43">悬线法</a>
+</li>
+	<li class="cat-item cat-item-113"><a href="https://mczhuang.cn/?cat=113">扫描线</a>
+</li>
+	<li class="cat-item cat-item-126"><a href="https://mczhuang.cn/?cat=126">排列组合</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-124"><a href="https://mczhuang.cn/?cat=124">容斥</a>
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-90"><a href="https://mczhuang.cn/?cat=90">构造题</a>
+</li>
+	<li class="cat-item cat-item-95"><a href="https://mczhuang.cn/?cat=95">桶</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="https://mczhuang.cn/?cat=49">模拟</a>
+</li>
+	<li class="cat-item cat-item-108"><a href="https://mczhuang.cn/?cat=108">模拟退火</a>
+</li>
+	<li class="cat-item cat-item-58"><a href="https://mczhuang.cn/?cat=58">矩阵加速</a>
+</li>
+	<li class="cat-item cat-item-70"><a href="https://mczhuang.cn/?cat=70">莫队</a>
+</li>
+	<li class="cat-item cat-item-143"><a href="https://mczhuang.cn/?cat=143">虚树</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="https://mczhuang.cn/?cat=66">记忆化</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="https://mczhuang.cn/?cat=32">贪心</a>
+</li>
+	<li class="cat-item cat-item-86"><a href="https://mczhuang.cn/?cat=86">高精度</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-80"><a href="https://mczhuang.cn/?cat=80">搜索</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-114"><a href="https://mczhuang.cn/?cat=114">记忆化搜索</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-139"><a href="https://mczhuang.cn/?cat=139">数学</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-142"><a href="https://mczhuang.cn/?cat=142">Stern-Brocot树</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="https://mczhuang.cn/?cat=41">数论</a>
+		<ul class='children'>
+	<li class="cat-item cat-item-82"><a href="https://mczhuang.cn/?cat=82">FFT</a>
+</li>
+	<li class="cat-item cat-item-138"><a href="https://mczhuang.cn/?cat=138">NTT</a>
+</li>
+	<li class="cat-item cat-item-100"><a href="https://mczhuang.cn/?cat=100">期望</a>
+</li>
+	<li class="cat-item cat-item-106"><a href="https://mczhuang.cn/?cat=106">筛</a>
+</li>
+	<li class="cat-item cat-item-141"><a href="https://mczhuang.cn/?cat=141">类欧几里得</a>
+</li>
+	<li class="cat-item cat-item-74"><a href="https://mczhuang.cn/?cat=74">线性基</a>
+</li>
+	<li class="cat-item cat-item-123"><a href="https://mczhuang.cn/?cat=123">莫比乌斯函数</a>
+			<ul class='children'>
+	<li class="cat-item cat-item-122"><a href="https://mczhuang.cn/?cat=122">莫比乌斯反演</a>
+</li>
+			</ul>
+</li>
+	<li class="cat-item cat-item-57"><a href="https://mczhuang.cn/?cat=57">高斯消元法</a>
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-137"><a href="https://mczhuang.cn/?cat=137">母函数/生成函数</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-130"><a href="https://mczhuang.cn/?cat=130">群论</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-131"><a href="https://mczhuang.cn/?cat=131">置换群</a>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+								</ul>
+															</nav><!-- #site-navigation -->
+						</div>
+					</div>            
+
+					<!-- Feature in the making, coming soon -->
+											<div class="container clear">
+							<div class="site-branding">
+								<a href="https://mczhuang.cn/">
+										<div class="site-title">Michael Zhuang&#039;s Log</div>
+										<div class="site-description">Distant Memories</div>
+										</a>
+							</div><!-- .site-branding -->
+						</div>
+						<!-- Feature in the making, coming soon -->
+									</header><!-- #masthead -->
+									<!-- Upper widgets -->
+										<!-- / Upper widgets -->
+				
+<div id="page" class="single">
+	<div class="content">
+		<article class="article">
+			<div id="content_box" >
+									<div id="post-9" class="g post post-9 page type-page status-publish has-post-thumbnail hentry">
+						<div class="single_page single_post clear">
+							<header>
+								<h1 class="title">About</h1>
+							</header>
+							<div id="content" class="post-single-content box mark-links">
+								<p><strong>Computer Science Rising Junior @ University of Michigan</strong></p>
+<p>Former Low Latency System Engineer Intern @ GangXing Investment (罡兴投资)</p>
+<p>Former Algorithm Intern @ Huakong Tsingjiao Information Science (华控清交) &amp; IIIS, Tsinghua University</p>
+<p>Former Software Engineer Intern @ Singularity Data</p>
+<p>Former Data Analyst Intern @ Apple</p>
+<p>Former Algorithm Contest Writer @ NowCoder</p>
+<h2 style="text-align: center;">Links</h2>
+<p><a href="https://www.linkedin.com/in/mczhuang/">LinkedIn</a></p>
+<p><a href="https://github.com/mczhuang">GitHub</a></p>
+<p>Mail: mczhuang<strong> [AT] </strong>umich<strong> [DOT] </strong>edu</p>
+<p>WeChat: <a href="https://mczhuang.cn/wp-content/uploads/2021/11/IMG_5082.jpg">(QR code)</a></p>
+<p>&nbsp;</p>
+<p><strong>This page is permanently redirected from this link: </strong><a href="http://me.mczhuang.cn"><strong>me.mczhuang.cn</strong></a></p>
+                                    
+							</div><!--.post-content box mark-links-->
+							
+<!-- You can start editing here. -->
+								</div>
+					</div>
+							</div>
+		</article>
+		
+<aside class="sidebar c-4-12">
+	<div id="sidebars" class="sidebar">
+		<div class="sidebar_list">
+			<div id="search-10" class="widget widget_search"><form method="get" id="searchform" class="search-form" action="https://mczhuang.cn" _lpchecked="1">
+	<fieldset>
+		<input type="text" name="s" id="s" value="" placeholder="Search this site..." onblur="if (this.value == '') {this.value = 'Search this site...';}" onfocus="if (this.value == 'Search this site...') {this.value = '';}" >
+		<input type="submit" value="Search" />
+	</fieldset>
+</form>
+</div><div id="custom_html-8" class="widget_text widget widget_custom_html"><h3 class="widget-title"><span>More</span></h3><div class="textwidget custom-html-widget"><a href="https://mczhuang.cn" >Home</a>
+<br>
+<a href="https://mczhuang.cn/?page_id=504" >Tools</a>
+<br>
+<a href="https://mczhuang.cn/?page_id=9" >About
+</a>
+<br>
+<a href="https://www.cnblogs.com/mczhuang" >Original Blog</a>
+</div></div><div id="categories-4" class="widget widget_categories"><h3 class="widget-title"><span>Contents</span></h3>
+			<ul>
+					<li class="cat-item cat-item-10"><a href="https://mczhuang.cn/?cat=10">Contests</a> (71)
+<ul class='children'>
+	<li class="cat-item cat-item-69"><a href="https://mczhuang.cn/?cat=69">NOI/APIO/CTSC</a> (12)
+</li>
+	<li class="cat-item cat-item-48"><a href="https://mczhuang.cn/?cat=48">NOIp</a> (7)
+</li>
+	<li class="cat-item cat-item-14"><a href="https://mczhuang.cn/?cat=14">NOIP模拟赛</a> (6)
+</li>
+	<li class="cat-item cat-item-11"><a href="https://mczhuang.cn/?cat=11">SRM</a> (2)
+</li>
+	<li class="cat-item cat-item-23"><a href="https://mczhuang.cn/?cat=23">USACO</a> (43)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-59"><a href="https://mczhuang.cn/?cat=59">Models</a> (26)
+</li>
+	<li class="cat-item cat-item-5"><a href="https://mczhuang.cn/?cat=5">OJ</a> (293)
+<ul class='children'>
+	<li class="cat-item cat-item-4"><a href="https://mczhuang.cn/?cat=4">51NOD</a> (7)
+</li>
+	<li class="cat-item cat-item-31"><a href="https://mczhuang.cn/?cat=31">BZOJ</a> (245)
+</li>
+	<li class="cat-item cat-item-30"><a href="https://mczhuang.cn/?cat=30">Code VS</a> (3)
+</li>
+	<li class="cat-item cat-item-109"><a href="https://mczhuang.cn/?cat=109">Codeforces</a> (3)
+</li>
+	<li class="cat-item cat-item-120"><a href="https://mczhuang.cn/?cat=120">HDU</a> (2)
+</li>
+	<li class="cat-item cat-item-140"><a href="https://mczhuang.cn/?cat=140">JZOJ</a> (1)
+</li>
+	<li class="cat-item cat-item-97"><a href="https://mczhuang.cn/?cat=97">LOJ</a> (2)
+</li>
+	<li class="cat-item cat-item-132"><a href="https://mczhuang.cn/?cat=132">noi.ac</a> (1)
+</li>
+	<li class="cat-item cat-item-45"><a href="https://mczhuang.cn/?cat=45">POJ</a> (3)
+</li>
+	<li class="cat-item cat-item-134"><a href="https://mczhuang.cn/?cat=134">SPOJ</a> (1)
+</li>
+	<li class="cat-item cat-item-40"><a href="https://mczhuang.cn/?cat=40">洛谷</a> (33)
+</li>
+	<li class="cat-item cat-item-129"><a href="https://mczhuang.cn/?cat=129">牛客</a> (2)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://mczhuang.cn/?cat=1">Uncategorized</a> (3)
+</li>
+	<li class="cat-item cat-item-133"><a href="https://mczhuang.cn/?cat=133">出题记录</a> (1)
+</li>
+	<li class="cat-item cat-item-8"><a href="https://mczhuang.cn/?cat=8">数据结构</a> (133)
+<ul class='children'>
+	<li class="cat-item cat-item-121"><a href="https://mczhuang.cn/?cat=121">KD-Tree</a> (2)
+</li>
+	<li class="cat-item cat-item-102"><a href="https://mczhuang.cn/?cat=102">set</a> (4)
+</li>
+	<li class="cat-item cat-item-94"><a href="https://mczhuang.cn/?cat=94">ST表(RMQ)</a> (4)
+</li>
+	<li class="cat-item cat-item-51"><a href="https://mczhuang.cn/?cat=51">Treap</a> (25)
+	<ul class='children'>
+	<li class="cat-item cat-item-91"><a href="https://mczhuang.cn/?cat=91">Splay</a> (4)
+		<ul class='children'>
+	<li class="cat-item cat-item-92"><a href="https://mczhuang.cn/?cat=92">Link Cut Tree</a> (3)
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-52"><a href="https://mczhuang.cn/?cat=52">非旋转Treap</a> (21)
+		<ul class='children'>
+	<li class="cat-item cat-item-68"><a href="https://mczhuang.cn/?cat=68">可持久化Treap</a> (4)
+</li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-99"><a href="https://mczhuang.cn/?cat=99">Trie树</a> (7)
+	<ul class='children'>
+	<li class="cat-item cat-item-125"><a href="https://mczhuang.cn/?cat=125">可持久化Trie</a> (3)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://mczhuang.cn/?cat=20">分块</a> (5)
+</li>
+	<li class="cat-item cat-item-60"><a href="https://mczhuang.cn/?cat=60">堆</a> (13)
+	<ul class='children'>
+	<li class="cat-item cat-item-61"><a href="https://mczhuang.cn/?cat=61">可并堆</a> (4)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://mczhuang.cn/?cat=13">并查集</a> (19)
+</li>
+	<li class="cat-item cat-item-65"><a href="https://mczhuang.cn/?cat=65">栈</a> (9)
+	<ul class='children'>
+	<li class="cat-item cat-item-84"><a href="https://mczhuang.cn/?cat=84">单调栈</a> (5)
+</li>
+	<li class="cat-item cat-item-96"><a href="https://mczhuang.cn/?cat=96">手工栈</a> (1)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-22"><a href="https://mczhuang.cn/?cat=22">树状数组</a> (21)
+	<ul class='children'>
+	<li class="cat-item cat-item-71"><a href="https://mczhuang.cn/?cat=71">权值树状数组</a> (7)
+</li>
+	<li class="cat-item cat-item-46"><a href="https://mczhuang.cn/?cat=46">逆序对</a> (1)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://mczhuang.cn/?cat=9">线段树</a> (30)
+	<ul class='children'>
+	<li class="cat-item cat-item-75"><a href="https://mczhuang.cn/?cat=75">主席树（权值线段树）</a> (7)
+</li>
+	<li class="cat-item cat-item-21"><a href="https://mczhuang.cn/?cat=21">树链剖分</a> (6)
+</li>
+	<li class="cat-item cat-item-136"><a href="https://mczhuang.cn/?cat=136">线段树合并</a> (2)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-88"><a href="https://mczhuang.cn/?cat=88">链表</a> (4)
+	<ul class='children'>
+	<li class="cat-item cat-item-89"><a href="https://mczhuang.cn/?cat=89">双向链表</a> (4)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-29"><a href="https://mczhuang.cn/?cat=29">队列</a> (16)
+	<ul class='children'>
+	<li class="cat-item cat-item-19"><a href="https://mczhuang.cn/?cat=19">优先队列</a> (5)
+</li>
+	<li class="cat-item cat-item-81"><a href="https://mczhuang.cn/?cat=81">单调队列</a> (11)
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-50"><a href="https://mczhuang.cn/?cat=50">游记</a> (2)
+</li>
+	<li class="cat-item cat-item-6"><a href="https://mczhuang.cn/?cat=6">算法</a> (231)
+<ul class='children'>
+	<li class="cat-item cat-item-83"><a href="https://mczhuang.cn/?cat=83">几何</a> (11)
+	<ul class='children'>
+	<li class="cat-item cat-item-85"><a href="https://mczhuang.cn/?cat=85">凸包</a> (10)
+</li>
+	<li class="cat-item cat-item-111"><a href="https://mczhuang.cn/?cat=111">最小圆覆盖</a> (1)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-25"><a href="https://mczhuang.cn/?cat=25">动态规划</a> (40)
+	<ul class='children'>
+	<li class="cat-item cat-item-87"><a href="https://mczhuang.cn/?cat=87">区间DP</a> (3)
+</li>
+	<li class="cat-item cat-item-105"><a href="https://mczhuang.cn/?cat=105">数位DP</a> (1)
+</li>
+	<li class="cat-item cat-item-26"><a href="https://mczhuang.cn/?cat=26">斜率优化DP</a> (8)
+</li>
+	<li class="cat-item cat-item-101"><a href="https://mczhuang.cn/?cat=101">方案DP</a> (5)
+</li>
+	<li class="cat-item cat-item-107"><a href="https://mczhuang.cn/?cat=107">期望DP</a> (4)
+</li>
+	<li class="cat-item cat-item-118"><a href="https://mczhuang.cn/?cat=118">树形DP</a> (2)
+</li>
+	<li class="cat-item cat-item-35"><a href="https://mczhuang.cn/?cat=35">状态压缩DP</a> (7)
+</li>
+	<li class="cat-item cat-item-47"><a href="https://mczhuang.cn/?cat=47">背包型DP</a> (6)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-76"><a href="https://mczhuang.cn/?cat=76">博弈论</a> (2)
+</li>
+	<li class="cat-item cat-item-7"><a href="https://mczhuang.cn/?cat=7">图论</a> (61)
+	<ul class='children'>
+	<li class="cat-item cat-item-110"><a href="https://mczhuang.cn/?cat=110">DSU On Tree</a> (7)
+</li>
+	<li class="cat-item cat-item-27"><a href="https://mczhuang.cn/?cat=27">LCA</a> (15)
+		<ul class='children'>
+	<li class="cat-item cat-item-39"><a href="https://mczhuang.cn/?cat=39">Tarjan</a> (3)
+</li>
+	<li class="cat-item cat-item-37"><a href="https://mczhuang.cn/?cat=37">倍增爬树法</a> (5)
+</li>
+	<li class="cat-item cat-item-62"><a href="https://mczhuang.cn/?cat=62">链剖</a> (9)
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-73"><a href="https://mczhuang.cn/?cat=73">强联通Tarjan</a> (1)
+</li>
+	<li class="cat-item cat-item-38"><a href="https://mczhuang.cn/?cat=38">最小生成树</a> (9)
+		<ul class='children'>
+	<li class="cat-item cat-item-24"><a href="https://mczhuang.cn/?cat=24">Kruskal</a> (9)
+</li>
+	<li class="cat-item cat-item-117"><a href="https://mczhuang.cn/?cat=117">Prim</a> (1)
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-33"><a href="https://mczhuang.cn/?cat=33">最短路</a> (16)
+		<ul class='children'>
+	<li class="cat-item cat-item-119"><a href="https://mczhuang.cn/?cat=119">Dijkstra</a> (3)
+</li>
+	<li class="cat-item cat-item-36"><a href="https://mczhuang.cn/?cat=36">Floyd</a> (5)
+</li>
+	<li class="cat-item cat-item-34"><a href="https://mczhuang.cn/?cat=34">SPFA/SPDIJ</a> (9)
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-93"><a href="https://mczhuang.cn/?cat=93">最短路树</a> (5)
+</li>
+	<li class="cat-item cat-item-63"><a href="https://mczhuang.cn/?cat=63">树上最长路</a> (3)
+</li>
+	<li class="cat-item cat-item-67"><a href="https://mczhuang.cn/?cat=67">点分治</a> (9)
+</li>
+	<li class="cat-item cat-item-54"><a href="https://mczhuang.cn/?cat=54">网络流</a> (8)
+		<ul class='children'>
+	<li class="cat-item cat-item-55"><a href="https://mczhuang.cn/?cat=55">二分图匹配</a> (3)
+</li>
+	<li class="cat-item cat-item-127"><a href="https://mczhuang.cn/?cat=127">最小割/最大流</a> (4)
+</li>
+	<li class="cat-item cat-item-128"><a href="https://mczhuang.cn/?cat=128">费用流</a> (2)
+</li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-77"><a href="https://mczhuang.cn/?cat=77">字符串</a> (10)
+	<ul class='children'>
+	<li class="cat-item cat-item-78"><a href="https://mczhuang.cn/?cat=78">AC自动机</a> (2)
+</li>
+	<li class="cat-item cat-item-79"><a href="https://mczhuang.cn/?cat=79">KMP</a> (1)
+</li>
+	<li class="cat-item cat-item-98"><a href="https://mczhuang.cn/?cat=98">后缀自动机</a> (8)
+		<ul class='children'>
+	<li class="cat-item cat-item-135"><a href="https://mczhuang.cn/?cat=135">广义后缀自动机</a> (3)
+</li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-72"><a href="https://mczhuang.cn/?cat=72">思维题</a> (12)
+</li>
+	<li class="cat-item cat-item-16"><a href="https://mczhuang.cn/?cat=16">技巧</a> (105)
+	<ul class='children'>
+	<li class="cat-item cat-item-44"><a href="https://mczhuang.cn/?cat=44">Hash</a> (11)
+</li>
+	<li class="cat-item cat-item-18"><a href="https://mczhuang.cn/?cat=18">三分</a> (2)
+</li>
+	<li class="cat-item cat-item-42"><a href="https://mczhuang.cn/?cat=42">二分</a> (22)
+</li>
+	<li class="cat-item cat-item-17"><a href="https://mczhuang.cn/?cat=17">二进制压位</a> (2)
+</li>
+	<li class="cat-item cat-item-56"><a href="https://mczhuang.cn/?cat=56">分块打表</a> (2)
+</li>
+	<li class="cat-item cat-item-103"><a href="https://mczhuang.cn/?cat=103">分治</a> (6)
+		<ul class='children'>
+	<li class="cat-item cat-item-115"><a href="https://mczhuang.cn/?cat=115">CDQ分治</a> (2)
+</li>
+	<li class="cat-item cat-item-104"><a href="https://mczhuang.cn/?cat=104">根号分治</a> (3)
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-64"><a href="https://mczhuang.cn/?cat=64">垃圾回收</a> (1)
+</li>
+	<li class="cat-item cat-item-28"><a href="https://mczhuang.cn/?cat=28">差分</a> (14)
+</li>
+	<li class="cat-item cat-item-116"><a href="https://mczhuang.cn/?cat=116">差分约束</a> (1)
+</li>
+	<li class="cat-item cat-item-43"><a href="https://mczhuang.cn/?cat=43">悬线法</a> (1)
+</li>
+	<li class="cat-item cat-item-113"><a href="https://mczhuang.cn/?cat=113">扫描线</a> (3)
+</li>
+	<li class="cat-item cat-item-126"><a href="https://mczhuang.cn/?cat=126">排列组合</a> (3)
+		<ul class='children'>
+	<li class="cat-item cat-item-124"><a href="https://mczhuang.cn/?cat=124">容斥</a> (2)
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-90"><a href="https://mczhuang.cn/?cat=90">构造题</a> (1)
+</li>
+	<li class="cat-item cat-item-95"><a href="https://mczhuang.cn/?cat=95">桶</a> (3)
+</li>
+	<li class="cat-item cat-item-49"><a href="https://mczhuang.cn/?cat=49">模拟</a> (14)
+</li>
+	<li class="cat-item cat-item-108"><a href="https://mczhuang.cn/?cat=108">模拟退火</a> (1)
+</li>
+	<li class="cat-item cat-item-58"><a href="https://mczhuang.cn/?cat=58">矩阵加速</a> (1)
+</li>
+	<li class="cat-item cat-item-70"><a href="https://mczhuang.cn/?cat=70">莫队</a> (7)
+</li>
+	<li class="cat-item cat-item-143"><a href="https://mczhuang.cn/?cat=143">虚树</a> (1)
+</li>
+	<li class="cat-item cat-item-66"><a href="https://mczhuang.cn/?cat=66">记忆化</a> (1)
+</li>
+	<li class="cat-item cat-item-32"><a href="https://mczhuang.cn/?cat=32">贪心</a> (21)
+</li>
+	<li class="cat-item cat-item-86"><a href="https://mczhuang.cn/?cat=86">高精度</a> (4)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-80"><a href="https://mczhuang.cn/?cat=80">搜索</a> (3)
+	<ul class='children'>
+	<li class="cat-item cat-item-114"><a href="https://mczhuang.cn/?cat=114">记忆化搜索</a> (1)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-139"><a href="https://mczhuang.cn/?cat=139">数学</a> (36)
+	<ul class='children'>
+	<li class="cat-item cat-item-142"><a href="https://mczhuang.cn/?cat=142">Stern-Brocot树</a> (1)
+</li>
+	<li class="cat-item cat-item-41"><a href="https://mczhuang.cn/?cat=41">数论</a> (35)
+		<ul class='children'>
+	<li class="cat-item cat-item-82"><a href="https://mczhuang.cn/?cat=82">FFT</a> (3)
+</li>
+	<li class="cat-item cat-item-138"><a href="https://mczhuang.cn/?cat=138">NTT</a> (1)
+</li>
+	<li class="cat-item cat-item-100"><a href="https://mczhuang.cn/?cat=100">期望</a> (1)
+</li>
+	<li class="cat-item cat-item-106"><a href="https://mczhuang.cn/?cat=106">筛</a> (7)
+</li>
+	<li class="cat-item cat-item-141"><a href="https://mczhuang.cn/?cat=141">类欧几里得</a> (1)
+</li>
+	<li class="cat-item cat-item-74"><a href="https://mczhuang.cn/?cat=74">线性基</a> (4)
+</li>
+	<li class="cat-item cat-item-123"><a href="https://mczhuang.cn/?cat=123">莫比乌斯函数</a> (5)
+			<ul class='children'>
+	<li class="cat-item cat-item-122"><a href="https://mczhuang.cn/?cat=122">莫比乌斯反演</a> (4)
+</li>
+			</ul>
+</li>
+	<li class="cat-item cat-item-57"><a href="https://mczhuang.cn/?cat=57">高斯消元法</a> (2)
+</li>
+		</ul>
+</li>
+	<li class="cat-item cat-item-137"><a href="https://mczhuang.cn/?cat=137">母函数/生成函数</a> (2)
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-130"><a href="https://mczhuang.cn/?cat=130">群论</a> (1)
+	<ul class='children'>
+	<li class="cat-item cat-item-131"><a href="https://mczhuang.cn/?cat=131">置换群</a> (1)
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+			</ul>
+
+			</div>		</div>
+	</div><!--sidebars-->
+</aside>		</div>
+		</div>
+		<footer id="site-footer" role="contentinfo">
+		<div class="container">
+		<div class="footer-widgets">
+			<div class="footer-widget">
+								<div id="views-5" class="widget widget_views"><h3 class="widget-title"> Statistics</h3><ul>
+<li><a href="https://mczhuang.cn/?p=119"  title="USACO 补完（TJ）计划">USACO 补完（TJ）计划</a> - 747 views</li><li><a href="https://mczhuang.cn/?page_id=9"  title="About">About</a> - 2,973 views</li><li><a href="https://mczhuang.cn/?page_id=504"  title="Tools">Tools</a> - 1,723 views</li><li><a href="https://mczhuang.cn/?p=476"  title="NOIp2017 Day2T3 列队（Treap）">NOIp2017 Day2T3 列队（Treap）</a> - 940 views</li><li><a href="https://mczhuang.cn/?p=467"  title="BZOJ 1500: [NOI2005]维修数列&amp;&amp;洛谷...">BZOJ 1500: [NOI2005]维修数列&amp;&amp;洛谷...</a> - 881 views</li><li><a href="https://mczhuang.cn/?p=500"  title="NOIp2017 Day1T3 逛公园（SPFA+记忆化...">NOIp2017 Day1T3 逛公园（SPFA+记忆化...</a> - 879 views</li><li><a href="https://mczhuang.cn/?p=262"  title="BZOJ 3732: Network（Kruskal+L...">BZOJ 3732: Network（Kruskal+L...</a> - 822 views</li><li><a href="https://mczhuang.cn/?p=2106"  title="牛客OI周赛7-提高组 题解与代码（出题记录）">牛客OI周赛7-提高组 题解与代码（出题记录）</a> - 762 views</li></ul>
+</div>					</div>
+		<div class="footer-widget">
+						<div id="custom_html-3" class="widget_text widget widget_custom_html"><h3 class="widget-title">仰慕</h3><div class="textwidget custom-html-widget"><a href="
+http://www.cnblogs.com/Blue233333/" >Blue233333</a>
+<br>
+<a href="http://www.cnblogs.com/Enceladus/" >Enceladus</a>
+<br>
+<a href="http://icebound.cc" >Icebound</a>
+<br>
+<a href="http://cnblogs.com/driverlao" >Lao</a>
+<br>
+<a href="https://www.panpili.com/" >Panpili</a>
+<br>
+<a href="http://cnblogs.com/sthrreek" >reek</a>
+<br>
+<a href="https://sakits.com" >Sakits</a>
+<br></div></div>			</div>
+	<div class="footer-widget last">
+				<div id="archives-6" class="widget widget_archive"><h3 class="widget-title">Time Machine</h3>
+			<ul>
+					<li><a href='https://mczhuang.cn/?m=201905'>2019年5月</a>&nbsp;(1)</li>
+	<li><a href='https://mczhuang.cn/?m=201904'>2019年4月</a>&nbsp;(4)</li>
+	<li><a href='https://mczhuang.cn/?m=201902'>2019年2月</a>&nbsp;(3)</li>
+	<li><a href='https://mczhuang.cn/?m=201901'>2019年1月</a>&nbsp;(8)</li>
+	<li><a href='https://mczhuang.cn/?m=201812'>2018年12月</a>&nbsp;(1)</li>
+	<li><a href='https://mczhuang.cn/?m=201811'>2018年11月</a>&nbsp;(2)</li>
+	<li><a href='https://mczhuang.cn/?m=201810'>2018年10月</a>&nbsp;(7)</li>
+	<li><a href='https://mczhuang.cn/?m=201809'>2018年9月</a>&nbsp;(12)</li>
+	<li><a href='https://mczhuang.cn/?m=201808'>2018年8月</a>&nbsp;(5)</li>
+	<li><a href='https://mczhuang.cn/?m=201807'>2018年7月</a>&nbsp;(8)</li>
+	<li><a href='https://mczhuang.cn/?m=201806'>2018年6月</a>&nbsp;(15)</li>
+	<li><a href='https://mczhuang.cn/?m=201805'>2018年5月</a>&nbsp;(20)</li>
+	<li><a href='https://mczhuang.cn/?m=201804'>2018年4月</a>&nbsp;(68)</li>
+	<li><a href='https://mczhuang.cn/?m=201803'>2018年3月</a>&nbsp;(45)</li>
+	<li><a href='https://mczhuang.cn/?m=201802'>2018年2月</a>&nbsp;(25)</li>
+	<li><a href='https://mczhuang.cn/?m=201801'>2018年1月</a>&nbsp;(16)</li>
+	<li><a href='https://mczhuang.cn/?m=201712'>2017年12月</a>&nbsp;(26)</li>
+	<li><a href='https://mczhuang.cn/?m=201711'>2017年11月</a>&nbsp;(19)</li>
+	<li><a href='https://mczhuang.cn/?m=201710'>2017年10月</a>&nbsp;(29)</li>
+			</ul>
+
+			</div>	</div>
+</div>
+</div>
+<div class="copyrights">
+	<div class="container">
+		<div class="row" id="copyright-note">
+			<span>	 
+			&copy;2022 Michael Zhuang&#039;s Log				<!-- Delete below lines to remove copyright from footer -->
+				<span class="footer-info-right">
+					  <a rel="nofollow" href="http://beian.miit.gov.cn/"> 京ICP备2020043815号</a>   <a rel="nofollow" href=""></a>
+				</span>
+				<!-- Delete above lines to remove copyright from footer -->
+			</span>
+		</div>
+	</div>
+</div>
+</footer><!-- #site-footer -->
+<script type='text/javascript' src='https://mczhuang.cn/wp-content/themes/landing-pagency/js/customscripts.js?ver=5.9.3' id='landing-pagency-customscripts-js'></script>
+<script type='text/javascript' id='wp_slimstat-js-extra'>
+/* <![CDATA[ */
+var SlimStatParams = {"ajaxurl":"https:\/\/mczhuang.cn\/wp-admin\/admin-ajax.php","baseurl":"\/","dnt":"noslimstat,ab-item","ci":"YTozOntzOjEyOiJjb250ZW50X3R5cGUiO3M6NDoicGFnZSI7czoxMDoiY29udGVudF9pZCI7aTo5O3M6NjoiYXV0aG9yIjtzOjg6Im1jemh1YW5nIjt9.a59a6e3f09e0721a5a5d8b663656bf81"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.jsdelivr.net/wp/wp-slimstat/tags/4.8.8.1/wp-slimstat.min.js' id='wp_slimstat-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=default&#038;ver=1.3.11' id='mathjax-js'></script>
+
 </body>
 </html>
